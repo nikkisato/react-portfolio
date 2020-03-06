@@ -1,0 +1,15 @@
+.Header {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  margin: 0;
+}
+
+nav li{
+  display: inline-block;
+  margin:1rem;
+  list-style-type: none;
+}
