@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Exo+2|Sen&display=swap');
+
+footer {
+  height: 2rem;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Sen', sans-serif;
+  width: 100%;
+}

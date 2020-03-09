@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Exo+2|Sen&display=swap');
+
+.hero {
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+  background-image: url('../assets/brokeh-lights.jpg');
+  background-size: cover;
+  background-position-x: center;
+  color: white;
+}
+.name {
+  text-align: center;
+  min-width: 5rem;
+  font-family: 'Sen', sans-serif;
+  padding-top: 10rem;
+}
+.type {
+  font-family: 'Exo 2', sans-serif;
+  text-align: center;
+  min-width: 5rem;
+  padding:2rem;
+}
+h1 {
+  margin: 0 !important;
+}
+.Typist {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    min-height: 20vh;
+  }
+  .name {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 5rem;
+  }
+
+  .Typist {
+    font-size: 1.5rem;
+  }
+}

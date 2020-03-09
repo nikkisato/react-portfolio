@@ -3,8 +3,6 @@ import styles from './Header.css';
 
 const Header = () => (
   <header className={styles.Header}>
-    <h1>Insert logo</h1>
-
     <nav>
       <ul>
         <li>About</li>
