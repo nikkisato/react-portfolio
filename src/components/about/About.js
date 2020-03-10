@@ -5,6 +5,8 @@ import photo from '../assets/photo.jpg';
 import smile from '../assets/smile.jpg';
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import { Link } from 'react-router-dom';
+
 const About = () => (
   <>
     <div className={styles.polaroids}>
@@ -52,10 +54,10 @@ const About = () => (
       <a href='https://twitter.com/nikkisatodev'>
         <FaTwitterSquare size={32} />
       </a>
-
-      <MdEmail size={32} />
+      <Link to='/contact'>
+        <MdEmail size={32} />
+      </Link>
     </div>
-
   </>
 );
 
