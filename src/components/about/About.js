@@ -43,18 +43,34 @@ const About = () => (
 
     <div className={styles.socialIcon} style={{ color: 'black' }}>
       <br></br>
-      <a href='https://github.com/nikkisato'>
+      <a
+        href='https://github.com/nikkisato'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <FaGithubSquare size={32} />
       </a>
 
-      <a href='https://www.linkedin.com/in/nikkisato/'>
+      <a
+        href='https://www.linkedin.com/in/nikkisato/'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <FaLinkedin size={32} />
       </a>
 
-      <a href='https://twitter.com/nikkisatodev'>
+      <a
+        href='https://twitter.com/nikkisatodev'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <FaTwitterSquare size={32} />
       </a>
-      <a href='mailto:nikki.satopdx@gmail.com'>
+      <a
+        href='mailto:nikki.satopdx@gmail.com'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         <MdEmail size={32} />
       </a>
     </div>
