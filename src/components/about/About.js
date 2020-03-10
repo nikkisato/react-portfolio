@@ -54,9 +54,9 @@ const About = () => (
       <a href='https://twitter.com/nikkisatodev'>
         <FaTwitterSquare size={32} />
       </a>
-      <Link to='/contact'>
+      <a href='mailto:nikki.satopdx@gmail.com'>
         <MdEmail size={32} />
-      </Link>
+      </a>
     </div>
   </>
 );
