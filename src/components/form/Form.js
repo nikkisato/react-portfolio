@@ -11,8 +11,6 @@ const Form = () => (
             <div className={styles.maximize}></div>
             <div className={styles.minimize}></div>
           </div>
-
-         
         </div>
 
         <div className={styles.screenBody}>
@@ -20,7 +18,6 @@ const Form = () => (
             <div className={styles.appTitle}>
               <span>Contact</span>
             </div>
-            {/* //13 */}
           </div>
 
           <div className={styles.screenBodyItem}>
@@ -50,14 +47,13 @@ const Form = () => (
               <div className={styles.messages}>
                 <textarea
                   className={styles.messagesInput}
-                  id='txtArea'
-                  //   rows='10'
-                  //   cols='70'
                   placeholder='MESSAGE'
                 ></textarea>
               </div>
               <div className={styles.buttons}>
-                <button className={styles.appFormButton}>SEND</button>
+                <button type='submit' className={styles.appFormButton}>
+                  SEND
+                </button>
               </div>
             </form>
           </div>
