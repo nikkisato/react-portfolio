@@ -6,14 +6,22 @@ import Footer from './footer/Footer';
 import 'normalize.css';
 import Tech from './stack/Stack';
 import Form from './form/Form';
+import Projects from './projects/Projects';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export default function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <About />
-      <Footer />
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path='/' component={Hero} />
+          <Route path='/about' component={About} />
+          <Route path='/contact' component={Form} />
+          <Route path='/projects' component={Projects} />
+        </Switch>
+        <Footer />
+      </Router>
     </>
   );
 }

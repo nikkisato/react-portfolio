@@ -5,7 +5,6 @@ import photo from '../assets/photo.jpg';
 import smile from '../assets/smile.jpg';
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-
 const About = () => (
   <>
     <div className={styles.polaroids}>
@@ -54,10 +53,9 @@ const About = () => (
         <FaTwitterSquare size={32} />
       </a>
 
-      <a href='mailto: nikki.satopdx@gmail.com'>
-        <MdEmail size={32} />
-      </a>
+      <MdEmail size={32} />
     </div>
+
   </>
 );
 

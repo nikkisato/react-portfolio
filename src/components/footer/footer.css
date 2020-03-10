@@ -11,4 +11,6 @@ footer {
   align-items: center;
   font-family: 'Sen', sans-serif;
   width: 100%;
+  position:fixed;
+  bottom:0;
 }
