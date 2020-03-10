@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Hero.css';
 import Typist from 'react-typist';
 import TypistLoop from 'react-typist-loop';
+import 'react-typist/dist/Typist.css';
 
 const Hero = () => (
   <div className={styles.hero}>
