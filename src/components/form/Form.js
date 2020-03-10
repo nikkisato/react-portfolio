@@ -28,27 +28,34 @@ const Form = () => (
               data-netlify='true'
             >
               <div className={styles.appFormGroup}>
-                <input
-                  className={styles.appFormControl}
-                  type='text'
-                  name=''
-                  placeholder='NAME'
-                ></input>
+                <label>
+                  <input
+                    className={styles.appFormControl}
+                    type='text'
+                    name='name'
+                    placeholder='NAME'
+                  ></input>
+                </label>
               </div>
               <div className={styles.appFormGroup}>
-                <input
-                  className={styles.appFormControl}
-                  type='text'
-                  name=''
-                  placeholder='EMAIL'
-                ></input>
+                <label>
+                  <input
+                    className={styles.appFormControl}
+                    type='email'
+                    name='email'
+                    placeholder='EMAIL'
+                  ></input>
+                </label>
               </div>
 
               <div className={styles.messages}>
-                <textarea
-                  className={styles.messagesInput}
-                  placeholder='MESSAGE'
-                ></textarea>
+                <label>
+                  <textarea
+                    className={styles.messagesInput}
+                    placeholder='MESSAGE'
+                    name='message'
+                  ></textarea>
+                </label>
               </div>
               <div className={styles.buttons}>
                 <button type='submit' className={styles.appFormButton}>
