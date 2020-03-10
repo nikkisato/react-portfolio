@@ -12,16 +12,13 @@ input {
 .background {
   display: flex;
   min-height: 50vh;
-
-
 }
 
 .container {
   width: 75%;
   margin: auto;
   padding: 10px;
-  margin-top:4rem;
-
+  margin-top: 5rem;
 }
 
 .screen {
@@ -217,8 +214,6 @@ input {
   color: #142d55;
 }
 
-
-
 @media screen and (max-width: 520px) {
   .screenBody {
     flex-direction: column;
@@ -238,9 +233,7 @@ input {
   .appTitle:after {
     display: none;
   }
- 
 }
-
 
 @media screen and (max-width: 600px) {
   .screenBody {
