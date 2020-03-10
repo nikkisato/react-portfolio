@@ -21,12 +21,7 @@ const Form = () => (
           </div>
 
           <div className={styles.screenBodyItem}>
-            <form
-              className={styles.appForm}
-              name='contact'
-              method='POST'
-              data-netlify='true'
-            >
+            <form className={styles.appForm} name='contact' data-netlify='true'>
               <div className={styles.appFormGroup}>
                 <label>
                   <input
