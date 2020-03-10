@@ -4,6 +4,8 @@ import Typist from 'react-typist';
 import TypistLoop from 'react-typist-loop';
 import 'react-typist/dist/Typist.css';
 
+
+
 const Hero = () => (
   <div className={styles.hero}>
     <h1 className={styles.name}>Hello, I'm Nikki Sato</h1>
