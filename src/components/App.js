@@ -6,6 +6,7 @@ import Footer from './footer/Footer';
 import 'normalize.css';
 import Tech from './stack/Stack';
 import Projects from './projects/Projects';
+import StarWars from './starwars/StarWars';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export default function App() {

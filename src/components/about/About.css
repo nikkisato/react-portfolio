@@ -97,13 +97,7 @@
   box-shadow: 0 2.1rem 2rem rgba(0, 0, 0, 0.3);
 }
 
-a:active {
-  color: black;
-}
 
-a {
-  color: black;
-}
 
 @media only screen and (max-width: 600px) {
   .polaroid {
