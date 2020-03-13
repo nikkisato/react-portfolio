@@ -1,18 +1,16 @@
 import React from 'react';
-import styles from './Projects.css';
+import './Projects.scss';
 import petPals from '../assets/pet-pals.png';
 import NagMe from '../assets/NagMe.png';
 import covrLettr from '../assets/covrletter.png';
 
 const Projects = () => (
   <>
-    <div className={styles.polaroids}>
-      <h1>HIIIIII</h1>
-
-      <div className={styles.item}>
-        <div className={styles.polaroid}>
+    <div className='polaroids'>
+      <div className='item'>
+        <div className='polaroid'>
           <img src={petPals} />
-          <div className={styles.caption}>
+          <div className='caption'>
             Pet Pals
             <p>
               Share the responsibilities of letting your dog out with a
@@ -26,10 +24,10 @@ const Projects = () => (
         </div>
       </div>
 
-      <div className={styles.item}>
-        <div className={styles.polaroid}>
+      <div className='item'>
+        <div className='polaroid'>
           <img src={covrLettr} />
-          <div className={styles.caption}>
+          <div className='caption'>
             CovrLettr
             <p>
               Writing Cover Letters for people who are entering the software
@@ -42,10 +40,10 @@ const Projects = () => (
         </div>
       </div>
 
-      <div className={styles.item}>
-        <div className={styles.polaroid}>
+      <div className='item'>
+        <div className='polaroid'>
           <img src={NagMe} />
-          <div className={styles.caption}>
+          <div className='caption'>
             Nag Me
             <p>
               NagMe is the super proactive task and reminder app, that uses

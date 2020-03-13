@@ -25,18 +25,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(mp4|webm)$/,
-        use: {
-          loader: 'file-loader',
-          options: {
-            name: '[name].[contenthash].[ext]',
-            outputPath: 'assets/videos/',
-            publicPath: 'assets/videos/'
-          }
-        }
-      },
-      
-      {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
@@ -54,7 +42,7 @@ module.exports = {
           // Translates CSS into CommonJS
           'css-loader',
           // Compiles Sass to CSS
-          'sass-loader',
+          'sass-loader'
         ]
       },
       {

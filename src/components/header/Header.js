@@ -1,64 +1,60 @@
-import React from 'react';
-// import styles from './Header.css';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import $ from 'jquery';
-import styles from '../starwars/starWars.scss';
+import './Header.scss';
 
 const Header = () => {
-  $('.toggle-icon').click(function() {
-    $('#nav-container').toggleClass('pushed');
-  });
+  const [open, setOpen] = useState(true);
 
   return (
     <>
-      <header>
-        <nav className={styles.navbar}>
-          <label
-            className={styles.navbarToggle}
-            id='js-navbar-toggle'
-            forName='chkToggle'
-          >
-            <div id='nav-container'>
-              <div
-                className={[styles.toggleIcon, styles.navbarToggle]}
-                id='js-navbar-toggle'
-                forName='chkToggle'
-              >
-                <span className={styles.bar}></span>
-                <span className={styles.bar}></span>
-                <span className={styles.bar}></span>
-              </div>
+      <nav className='navbar'>
+        <label
+          className='navbar-toggle'
+          id='js-navbar-toggle'
+          htmlFor='chkToggle'
+        >
+          <div id='nav-container'>
+            <div
+              className={`toggle-icon navbar-toggle ${
+                open ? 'toggle-icon' : 'pushed'
+              }`}
+              onClick={() => setOpen(!open)}
+              id='js-navbar-toggle'
+              htmlFor='chkToggle'
+            >
+              <span className='bar'></span>
+              <span className='bar'></span>
+              <span className='bar'></span>
             </div>
-          </label>
-          <input type='checkbox' id='chkToggle'></input>
+          </div>
+        </label>
+        <input type='checkbox' id='chkToggle'></input>
+        <ul className='main-nav' id='js-menu'>
+          <li className='green'>
+            <Link to='/'>
+              <p className='nav-links '>Home</p>
+            </Link>
+          </li>
 
-          <ul className='main-nav' id='js-menu'>
-            <li className='green'>
-              <Link to='/'>
-                <p className='nav-links '>Home</p>
-              </Link>
-            </li>
+          <li className='blue'>
+            <Link to='/about'>
+              <p className='nav-links'>About</p>
+            </Link>
+          </li>
 
-            {/* <li className='blue'>
-              <Link to='/about'>
-                <p className='nav-links'>About</p>
-              </Link>
-            </li>
+          <li className='purple'>
+            <Link to='/projects'>
+              <p className='nav-links'>Projects</p>
+            </Link>
+          </li>
 
-            <li className='purple'>
-              <Link to='/projects'>
-                <p className='nav-links'>Projects</p>
-              </Link>
-            </li>
-
-            <li className='red'>
-              <Link to='/tech'>
-                <p className='nav-links'>Tech Stack</p>
-              </Link>
-            </li> */}
-          </ul>
-        </nav>
-      </header>
+          <li className='red'>
+            <Link to='/tech'>
+              <p className='nav-links'>Tech Stack</p>
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </>
   );
 };

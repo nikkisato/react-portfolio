@@ -1,16 +1,16 @@
 import React from 'react';
-import styles from './Hero.css';
+import './Hero.scss';
 import Particles from 'react-particles-js';
 
 import Typical from 'react-typical';
 
 const Hero = () => (
-  <div className={styles.hero}>
-    <div className={styles.text}>
-      <h1 className={styles.name}>Hello, I'm Nikki Sato</h1>
-      <div className={styles.type}>
+  <div className='hero'>
+    <div className='text'>
+      <h1 className='name'>Hello, I'm Nikki Sato</h1>
+      <div className='type'>
         <Typical
-          className={styles.type}
+          className='type'
           steps={[
             2500,
             'Front End Developer',
@@ -28,7 +28,7 @@ const Hero = () => (
       </div>
     </div>
     <Particles
-      className={styles.particle}
+      className='particle'
       params={{
         particles: {
           number: {
