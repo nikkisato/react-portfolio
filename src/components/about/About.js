@@ -8,25 +8,25 @@ import { MdEmail } from 'react-icons/md';
 
 const About = () => (
   <>
-    <div className='polaroids'>
-      <div className='item'>
-        <div className='polaroid'>
+    <div className='about-polaroids'>
+      <div className='about-item'>
+        <div className='about-polaroid'>
           <img src={photo} />
-          <div className='caption'>Photographer</div>
+          <div className='about-caption'>Photographer</div>
         </div>
       </div>
 
-      <div className='item'>
-        <div className='polaroid'>
+      <div className='about-item'>
+        <div className='about-polaroid'>
           <img src={nikki} />
-          <div className='caption'>Developer</div>
+          <div className='about-caption'>Developer</div>
         </div>
       </div>
 
-      <div className='item'>
-        <div className='polaroid'>
+      <div className='about-item'>
+        <div className='about-polaroid'>
           <img src={smile} />
-          <div className='caption'>Always Smiling</div>
+          <div className='about-caption'>Always Smiling</div>
         </div>
       </div>
     </div>
