@@ -37,7 +37,7 @@ const About = () => (
         exploring portland through the lens of a camera, or playing video games.
       </p>
       <br></br>
-      <h3>Connect With me!</h3>
+      <h2>Connect With me!</h2>
     </div>
 
     <div className='socialIcon' style={{ color: 'black' }}>

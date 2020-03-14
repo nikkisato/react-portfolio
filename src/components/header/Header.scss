@@ -16,6 +16,10 @@ nav {
     li {
       &:hover {
         color: black;
+
+        p:hover {
+          color: black;
+        }
       }
       display: inline-block;
       margin: 1rem;
@@ -215,7 +219,7 @@ nav {
 }
 li {
   a {
-	text-decoration: none;
+    text-decoration: none;
   }
   &:hover {
     a {
@@ -272,9 +276,6 @@ li {
       margin: 0;
       margin-bottom: 20px;
       margin-top: 20px;
-      &:hover {
-        color: black;
-      }
     }
   }
 }
