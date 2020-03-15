@@ -3,7 +3,6 @@ import Header from './header/Header';
 import Hero from './hero/Hero';
 import About from './about/About';
 import Footer from './footer/Footer';
-import Tech from './stack/Stack';
 import Projects from './projects/Projects';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './sass/reset.scss';
@@ -17,7 +16,6 @@ export default function App() {
           <Route exact path='/' component={Hero} />
           <Route path='/about' component={About} />
           <Route path='/projects' component={Projects} />
-          <Route path='/tech' component={Tech} />
         </Switch>
         <Footer />
       </Router>

@@ -47,12 +47,6 @@ const Header = () => {
               <p className='nav-links'>Projects</p>
             </Link>
           </li>
-
-          <li className='red'>
-            <Link to='/tech'>
-              <p className='nav-links'>Tech Stack</p>
-            </Link>
-          </li>
         </ul>
       </nav>
     </>
