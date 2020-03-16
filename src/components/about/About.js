@@ -68,8 +68,7 @@ const About = () => (
           <div className='content'>
             <h1 className='title'>Twitter</h1>
             <p>
-              Follow me on Twitter for video and course updates, article & blog
-              shares and more
+              Follow me on Twitter!
             </p>
           </div>
         </li>
@@ -103,7 +102,7 @@ const About = () => (
             <h1 className='title'>Instagram</h1>
             <p>
               Follow me on Instragram for a more personal look into my life and
-              work
+              photography work
             </p>
           </div>
         </li>
