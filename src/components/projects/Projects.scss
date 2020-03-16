@@ -9,7 +9,8 @@
   justify-content: space-evenly;
 }
 .item {
-  width: 30em;
+  max-width: 30em;
+  width:100%;
 }
 .polaroid {
   object-fit: contain;
