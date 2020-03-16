@@ -91,7 +91,11 @@ const About = () => (
         </li>
         <li className='social-tab'>
           <div className='social instagram'>
-            <a href='http://instagram.com/traversymedia' target='_blank'>
+            <a
+              href='https://www.instagram.com/nikkisato.visuals/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               Instagram
             </a>
           </div>
@@ -124,7 +128,13 @@ const About = () => (
 
         <li className='social-tab'>
           <div className='social resume'>
-            <a href='SampleFile.pdf'> Resume PDF </a>
+            <a
+              href='https://drive.google.com/file/d/1ZXS5Dgxo04dsutkTA7dBjh4zSDEdL1TI/view?usp=sharing'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Resume PDF
+            </a>
           </div>
           <div className='content'>
             <h1 className='title'>Resume</h1>
