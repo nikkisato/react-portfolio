@@ -3,13 +3,17 @@
   padding: 0 2rem;
   text-align: center;
   font-family: 'Caveat', cursive;
-  margin: Auto;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .item {
   max-width: 30em;
+  a {
+    display: inline;
+    color: black;
+  }
 }
 .polaroid {
   object-fit: contain;
@@ -21,6 +25,7 @@
 
   & > img {
     width: 100%;
+    height: auto;
   }
 }
 
@@ -82,15 +87,14 @@ a {
   display: inline;
 }
 
-
-@media only screen and (max-width: 500px) {
-  .item {
-    width: 100%;
-  }
-
+@media only screen and (max-width: 600px) {
   .polaroid {
-    & > img {
-      width: 100%;
-    }
+    min-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+  .item {
+    margin: 1rem;
   }
 }
