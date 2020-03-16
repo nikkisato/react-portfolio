@@ -10,7 +10,6 @@
 }
 .item {
   max-width: 30em;
-  width:100%;
 }
 .polaroid {
   object-fit: contain;
@@ -82,6 +81,16 @@
 a {
   display: inline;
 }
-p {
-  font-size: 1rem;
+
+
+@media only screen and (max-width: 500px) {
+  .item {
+    width: 100%;
+  }
+
+  .polaroid {
+    & > img {
+      width: 100%;
+    }
+  }
 }
