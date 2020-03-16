@@ -283,8 +283,15 @@ li {
         display: none;
       }
       li {
-        width: 100px;
-        padding:10px;
+        width: 80px;
+        padding: 10px;
+        &:hover {
+          color: black;
+        }
+      }
+      .nav-links {
+        color: white;
+        font-size: 1.4rem;
         &:hover {
           color: black;
         }
@@ -298,13 +305,13 @@ li {
             flex-direction: row;
             margin: 20px;
 
-            .nav-links {
-              color: white;
-              font-size: 1.4rem;
-              &:hover {
-                color: black;
-              }
-            }
+            // .nav-links {
+            //   color: white;
+            //   font-size: 1.4rem;
+            //   &:hover {
+            //     color: black;
+            //   }
+            // }
           }
         }
       }
