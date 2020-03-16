@@ -9,7 +9,7 @@
   justify-content: space-evenly;
 }
 .item {
-  max-width: 30em;
+  width: 30em;
   a {
     display: inline;
     color: black;
@@ -101,6 +101,6 @@ a {
 
   .item {
     margin: 1rem;
-    max-width: 30em;
+    width: 30em;
   }
 }
